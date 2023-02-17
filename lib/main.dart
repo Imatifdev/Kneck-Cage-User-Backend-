@@ -12,7 +12,10 @@ class FlutterFirebase extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: (),
+      home: Scaffold(
+          appBar: AppBar(
+        title: Text("data"),
+      )),
     );
   }
 }
